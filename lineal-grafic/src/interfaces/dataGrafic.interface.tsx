@@ -2,7 +2,8 @@
 export interface DataGraficInterface {
     data:DataGrafic[],
     dropValue:string,
-    width:number,
+    titleGrafic?:string
+    width?:number,
     height:number,
 }
 interface DataGrafic {
